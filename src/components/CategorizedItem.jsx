@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import CartButton from "../../utils/CartButton";
-import { ApiContext } from "../../utils/useFetch";
+import  ApiContext from "../../utils/useFetch";
 
 const CategorizedItem = () => {
   const [items, setItems] = useState([]);
