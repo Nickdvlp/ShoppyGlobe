@@ -43,7 +43,7 @@ const CategorizedItem = () => {
           >
             <img className="w-44 h-44" src={item.images} />
             <div className=" text-center">{item.title}</div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <CartButton />
               <Link to={`/product-details/${item.id}`}>
                 <button className="py-2 m-2 bg-orange-400 text-white p-2 rounded-xl">
