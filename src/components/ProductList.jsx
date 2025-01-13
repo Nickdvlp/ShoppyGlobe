@@ -55,7 +55,7 @@ const ProductList = () => {
                 alt={product.title}
               />
               <div>{product.title}</div>
-              <div className="p-2">
+              <div className="p-2 flex flex-wrap items-center justify-center">
                 <CartButton item={product.id} />
                 <Link to={`/product-details/${product.id}`}>
                   <button className="text-white p-2 px-2 bg-orange-400 mx-2 rounded-xl">
