@@ -30,6 +30,6 @@ You can increase and decrease the values of Product in Cart. I provided buttons 
 
 Where You can access this robust Application:-
 
-Netlify:-
+Netlify:- https://myshoppyglobe.netlify.app/
 
-GitHub:-
+GitHub:- https://github.com/Nickdvlp/ShoppyGlobe
